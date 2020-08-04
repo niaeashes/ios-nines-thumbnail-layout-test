@@ -13,6 +13,7 @@
 		D9703E0224D8F2DA005F1A7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9703E0024D8F2DA005F1A7F /* Main.storyboard */; };
 		D9703E0424D8F2DF005F1A7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9703E0324D8F2DF005F1A7F /* Assets.xcassets */; };
 		D9703E0724D8F2DF005F1A7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9703E0524D8F2DF005F1A7F /* LaunchScreen.storyboard */; };
+		D97FDB2624D8FD5000D10EC5 /* IMG_1581.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D97FDB2524D8FD4F00D10EC5 /* IMG_1581.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D9703E0324D8F2DF005F1A7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9703E0624D8F2DF005F1A7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9703E0824D8F2DF005F1A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D97FDB2524D8FD4F00D10EC5 /* IMG_1581.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1581.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				D9703DFE24D8F2DA005F1A7F /* ViewController.swift */,
 				D9703E0024D8F2DA005F1A7F /* Main.storyboard */,
 				D9703E0324D8F2DF005F1A7F /* Assets.xcassets */,
+				D97FDB2524D8FD4F00D10EC5 /* IMG_1581.JPG */,
 				D9703E0524D8F2DF005F1A7F /* LaunchScreen.storyboard */,
 				D9703E0824D8F2DF005F1A7F /* Info.plist */,
 			);
@@ -128,6 +131,7 @@
 				D9703E0724D8F2DF005F1A7F /* LaunchScreen.storyboard in Resources */,
 				D9703E0424D8F2DF005F1A7F /* Assets.xcassets in Resources */,
 				D9703E0224D8F2DA005F1A7F /* Main.storyboard in Resources */,
+				D97FDB2624D8FD5000D10EC5 /* IMG_1581.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,7 +14,27 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        images.forEach { imageView in
+            let gestureRecoginzier = UITapGestureRecognizer(target: self, action: #selector(self.tapImage(_:)))
+            imageView.addGestureRecognizer(gestureRecoginzier)
+        }
+    }
+    
+    @IBOutlet weak var emptyView: UIView!
+    @IBOutlet var images: Array<UIImageView> = []
+    
+    @objc func tapImage(_ sender: UITapGestureRecognizer) {
+        sender.view?.isHidden = true
+        emptyView.isHidden = !images.allSatisfy({ $0.isHidden })
+    }
+    
+    @IBAction func tapRefresh() {
+        images.forEach { $0.isHidden = false }
+        emptyView.isHidden = !images.allSatisfy({ $0.isHidden })
+    }
 }
 
